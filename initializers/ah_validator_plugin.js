@@ -73,7 +73,7 @@ Validator.extend('is', function(str, pattern, modifiers) {
 var ah_validator_plugin = function(api, next){
   var _ = require('underscore');
   
-  var cfg = api.config.validation;
+  var cfg = api.config.validate;
 
   var basicValidationFuncs = ['isEmail', 'isURL', 'isIP', 'isIPv4', 'isIPv6', 'isAlpha', 'isNumeric', 'isAlphanumeric', 'isBase64', 'isHexadecimal', 
     'isHexColor', 'isLowercase', 'isUppercase', 'isInt', 'isFloat', 'isDecimal', 'isNull', 'notNull', 'notEmpty', 'isDate', 'isCreditCard',

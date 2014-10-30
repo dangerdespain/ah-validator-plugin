@@ -1,8 +1,8 @@
 exports.default = {
-  validation: function (api) {
+  validate: function (api) {
     return {
       global: {
-      	objectHash : {
+      	'uuid-plugin-example' : {
       		isUUID : 4
       	}
       }
