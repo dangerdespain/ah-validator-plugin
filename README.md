@@ -6,7 +6,7 @@ Installation
 ------------
 ```sh
 cd [actionhero-base-directory]
-npm install https://github.com/dangerdespain/ah-validator-plugin/tarball/master --save
+npm install ah-validator-plugin --save
 ```
 
 Usage

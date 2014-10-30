@@ -158,12 +158,11 @@ var ah_validator_plugin = function(api, next){
 
       if(failedValidations.length){
         connection.error = failedValidations[0].msg;
+        next(connection, !cfg.haltOnValidationFailure);
+      }else{
+        next(connection, true);
       }
-
-      next(connection, true);
-
     })
-
   };
 
   init();
