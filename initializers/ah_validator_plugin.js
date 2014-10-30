@@ -1,4 +1,5 @@
 var Validator = require('validator');
+var _ = require('underscore');
 
 Validator.notNull = function (val) {
   return [null, undefined].indexOf(val) === -1
@@ -70,8 +71,7 @@ Validator.extend('is', function(str, pattern, modifiers) {
   return this.regex(str, pattern, modifiers);
 })
 
-var ah_validator_plugin = function(api, next){
-  var _ = require('underscore');
+var ah_validator_plugin = function(api, next){ 
   
   var cfg = api.config.validate;
 
