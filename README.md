@@ -1,11 +1,6 @@
 ah-validator-plugin
 ===================
-Parameter validation middleware plugin for the [actionhero.js] API server built on chriso's fantastic [validator.js] library
-
-Version
-----
-
-0.0.1
+Parameter validation middleware plugin for the [actionhero.js] API server built on [Chris O'Hara]'s fantastic [validator.js] library and leaning on [Sequelize]'s model validation definition/usage and validator extensions.
 
 Installation
 ------------
@@ -61,5 +56,7 @@ License
 MIT
 
 [Devin Despain]:https://github.com/dangerdespain
+[Chris O'Hara]:https://github.com/chriso
 [actionhero.js]:http://actionherojs.com/
 [validator.js]:https://github.com/chriso/validator.js
+[Sequelize]:http://sequelizejs.com/
