@@ -1,0 +1,41 @@
+{
+  "author": {
+    "name": "Devin Despain",
+    "email": "devin@dspa.in"
+  },
+  "name": "ah-validator-plugin",
+  "description": "Plugin for ActionHero Parameter Validation",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "dashboard",
+    "actionhero",
+    "parameter",
+    "validation",
+    "statistics"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "underscore": "^1.7.0",
+    "validator" : "^3.22.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "directories": {
+    "test": "test/markdown/"
+  },
+  "scripts": {},
+  "readme": "to-do",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "_id": "ah-validator-plugin@0.0.1",
+  "_from": "ah-validator-plugin@"
+}
