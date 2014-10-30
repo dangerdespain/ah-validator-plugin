@@ -4,18 +4,16 @@
     "email": "devin@dspa.in"
   },
   "name": "ah-validator-plugin",
-  "description": "Plugin for ActionHero Parameter Validation",
-  "version": "0.0.1",
+  "description": "actionhero.js parameter validation plugin",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/dangerdespain/ah-validator-plugin"
   },
   "keywords": [
-    "dashboard",
     "actionhero",
     "parameter",
-    "validation",
-    "statistics"
+    "validation"
   ],
   "engines": {
     "node": ">=0.8.0"
@@ -26,16 +24,13 @@
   },
   "devDependencies": {},
   "optionalDependencies": {},
-  "directories": {
-    "test": "test/markdown/"
-  },
+  "directories": {},
+  "homepage" : "",
   "scripts": {},
-  "readme": "to-do",
-  "readmeFilename": "README.md",
+  "readme" : "See documentation at https://github.com/dangerdespain/ah-validator-plugin",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/dangerdespain/ah-validator-plugin/issues"
   },
-  "homepage": "",
-  "_id": "ah-validator-plugin@0.0.1",
+  "_id": "ah-validator-plugin@0.0.5",
   "_from": "ah-validator-plugin@"
 }
