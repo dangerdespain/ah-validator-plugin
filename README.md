@@ -8,6 +8,7 @@ Installation
 cd [actionhero-base-directory]
 npm install ah-validator-plugin --save
 ```
+Enable the plugin in Actionhero by adding 'ah-validator-plugin' to the plugins array in config/api.js
 
 Usage
 -----------
