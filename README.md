@@ -19,6 +19,8 @@ Each key in the object will validate the values of matching keys from the connec
 
 Local definitions override global definitions for each key.
 
+A custom error message can also be added to a validation method by going a level deeper in the value and adding the keys 'args' and 'msg'. An example can be seen below in validate.email.notIn.
+
 #### local example (inside an action definition)
 ```js
 inputs: {
@@ -31,7 +33,9 @@ validate: {
     },
     'email' : {
       isEmail : true,
-      notIn   : ['admin@ah.com']
+      notIn   : {
+        args : ['admin@ah.com'],
+        msg : 'admin@ah.com is a reserved email. Please choose another.'
     }
 },
 ```
